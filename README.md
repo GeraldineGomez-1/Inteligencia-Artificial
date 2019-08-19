@@ -1,1 +1,1 @@
-# Inteligencia-Artificial
+# Triqui 
