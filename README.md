@@ -5,7 +5,7 @@ computarizado que obtiene sus posibles jugadas a través de la técnica Minmax y
 
 ## Descripción del juego
 
-El juego se encuentra representado por un tablero con 3 filas y 3 columnas. Los jugadores podran escoger entre dos simbolos para jugar X u O.  
+El juego se encuentra representado por un tablero con 3 filas y 3 columnas. Los jugadores podran escoger entre dos símbolos para jugar X u O.  
 
 Por turnos cada jugador deberá colocar el símbolo que haya escogido en un espacio del tablero, intentando formar con 3 de estos una linea horizontal o vertical, cuando esto se logre podrá considerarse el ganador de la partida.
 
@@ -21,12 +21,18 @@ Para poder ejecutar el programa realice los siguientes pasos:
     - cd, presione la barra espaciadora, de clic derecho, seleccione copiar, vera como la información de la ubicación del archivo se escribe automáticamente, presione enter y con esto se encontrara en la carpeta deseada.
     - digite java -jar Triqui.jar, y oprima enter.
 
+## Detalles de la aplicación
+
+La aplicación asignara el primer turno de manera aleaotoria, es decir si la computadora o el usuario comenzara la partida respectivamente, en dado que caso que la máquina inicie, se le otorgara el simbolo O, de igual forma si lo hace el usuario. 
+
+Las posiciones del tablero tendrán como representación el formato del número de la casilla, al ser una matriz de 3x3, cada casilla estara enumerada horizontalmente como 0,1,2,3,4,5,6,7,8. 
+
 ## Uso
 
-La aplicación asignara el primer turno de manera aleatoria,  dependiendo de esto mostrara la siguiente interfaz:
+Al ejecutarse la aplicación, mostrara una interfaz con un tablero, donde podra visualizar tanto el tablero como un enunciado con las posiciones disponibles para insertar el símbolo correspondiente y junto a este un numero entre paréntesis ( ), el cúal podrá presionar para poner el símbolo en la casilla deseada.
 
+Al digitarlo el tablero se actualizará de forma automatica, cediendole el turno a la computadora y continuando la partida.
 
-Donde podra visualizar las posiciones dispobles para insertar el simbolo que haya escogido, en el caso que usted fuera quien comienza la partida.
 
 
 
